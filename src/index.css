@@ -1,5 +1,31 @@
 body {
-  margin: 0;
+  margin-left: 10px;
   padding: 0;
-  font-family: sans-serif;
+  font-family: arial,sans-serif;
+}
+
+.score-box {
+  background: #fff;
+  border: 1px solid #000;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+  clear: both;
+}
+
+.scorecard-column:after {
+  margin-top: 10px;
+  content: "";
+  display: table;
+}
+
+.align-columns {
+  float:left;
 }
